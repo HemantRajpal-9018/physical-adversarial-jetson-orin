@@ -74,6 +74,42 @@ This repository contains code and experimental results for testing **physical ad
 
 ---
 
+### Comprehensive Analysis
+
+![Comprehensive Analysis](comprehensive_analysis.png)
+
+**Key Insights**:
+- Multi-dimensional environmental impact assessment
+- Systematic evaluation across lighting, viewing angles, and distances
+- Clear visualization of attack success rates and confidence degradation patterns
+
+### Detailed Heatmap Analysis
+
+![Heatmap Detailed](heatmap_detailed.png)
+
+**Analysis**:
+- Spatial distribution of model confidence across test scenarios
+- Identification of critical vulnerability zones
+- Environmental factor correlation with adversarial robustness
+
+### Robustness Analysis
+
+![Robustness Analysis](robustness_analysis.png)
+
+**Summary**:
+- Comprehensive robustness evaluation charts
+- Performance metrics across all experimental conditions
+- Detailed breakdown of environmental sensitivity factors
+
+### Physical Camera Test
+
+![Camera Test](camera_test.jpg)
+
+**Hardware Validation**:
+- Real-world camera capture on NVIDIA Jetson Orin
+- Physical adversarial patch deployment
+- Edge device inference validation
+
 ## Robustness Insights
 
 ### Vulnerabilities Identified
