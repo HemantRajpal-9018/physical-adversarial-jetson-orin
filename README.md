@@ -56,8 +56,7 @@ This repository contains code and experimental results for testing **physical ad
 
 ### Confidence vs Distance
 
-![Confidence vs Distance](results/confidence_vs_distance.png)
-
+![Confidence vs Distance](robustness_analysis.png)
 **Observations**:
 - U-shaped relationship: confidence drops at 2m, recovers at 5m
 - Optimal attack distance appears to be around 2 meters
@@ -65,8 +64,7 @@ This repository contains code and experimental results for testing **physical ad
 
 ### Confidence vs Viewing Angle
 
-![Confidence vs Angle](results/confidence_vs_angle.png)
-
+![Confidence vs Angle](robustness_analysis.png)
 **Observations**:
 - **15° viewing angle** produces lowest confidence (0.143)
 - Extreme angles (45°, 60°) show unpredictable stability
