@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "total_tests": 1,
+    "timestamp": "2025-11-14T23:48:38.914703",
+    "conditions_per_test": {
+      "lighting": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "angles_degrees": [
+        0,
+        15,
+        30,
+        45,
+        60
+      ],
+      "distances_meters": [
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ]
+    }
+  },
+  "results": [
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 0,
+        "distance_meters": 1.0,
+        "num_samples": 3
+      },
+      "patch_id": "test",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 559,
+          "confidence": 0.25214871764183044,
+          "timestamp": "2025-11-14T23:48:38.862114"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 559,
+          "confidence": 0.2133638560771942,
+          "timestamp": "2025-11-14T23:48:38.898114"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 559,
+          "confidence": 0.29390326142311096,
+          "timestamp": "2025-11-14T23:48:38.913964"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.2531386117140452,
+        "std_confidence": 0.03288752419053083
+      },
+      "timestamp": "2025-11-14T23:48:38.914471"
+    }
+  ]
+}
