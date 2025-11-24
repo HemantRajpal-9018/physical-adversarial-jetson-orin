@@ -1,0 +1,4588 @@
+{
+  "metadata": {
+    "total_tests": 60,
+    "timestamp": "2025-11-14T23:50:50.776373",
+    "conditions_per_test": {
+      "lighting": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "angles_degrees": [
+        0,
+        15,
+        30,
+        45,
+        60
+      ],
+      "distances_meters": [
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ]
+    }
+  },
+  "results": [
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 0,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 644,
+          "confidence": 0.42832592129707336,
+          "timestamp": "2025-11-14T23:50:20.270856"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 644,
+          "confidence": 0.5575982332229614,
+          "timestamp": "2025-11-14T23:50:20.303134"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 644,
+          "confidence": 0.4048877954483032,
+          "timestamp": "2025-11-14T23:50:20.326526"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 644,
+          "confidence": 0.25730693340301514,
+          "timestamp": "2025-11-14T23:50:20.341854"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 644,
+          "confidence": 0.09015574306249619,
+          "timestamp": "2025-11-14T23:50:20.356905"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 644,
+          "confidence": 0.12881554663181305,
+          "timestamp": "2025-11-14T23:50:20.373026"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.0762305036187172,
+          "timestamp": "2025-11-14T23:50:20.387921"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.09112467616796494,
+          "timestamp": "2025-11-14T23:50:20.416388"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.12608051300048828,
+          "timestamp": "2025-11-14T23:50:20.447738"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.08246935904026031,
+          "timestamp": "2025-11-14T23:50:20.479405"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.22429952248930932,
+        "std_confidence": 0.16821144486275147
+      },
+      "timestamp": "2025-11-14T23:50:20.479966"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 0,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.11123572289943695,
+          "timestamp": "2025-11-14T23:50:20.744231"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.20374834537506104,
+          "timestamp": "2025-11-14T23:50:20.779059"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.3661120533943176,
+          "timestamp": "2025-11-14T23:50:20.813085"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.12721040844917297,
+          "timestamp": "2025-11-14T23:50:20.843979"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 659,
+          "confidence": 0.10967899858951569,
+          "timestamp": "2025-11-14T23:50:20.875292"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.09430898725986481,
+          "timestamp": "2025-11-14T23:50:20.905475"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 756,
+          "confidence": 0.07621005922555923,
+          "timestamp": "2025-11-14T23:50:20.935437"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11335432529449463,
+          "timestamp": "2025-11-14T23:50:20.969096"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.08984310925006866,
+          "timestamp": "2025-11-14T23:50:20.998573"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.15950824320316315,
+          "timestamp": "2025-11-14T23:50:21.031310"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14512102529406548,
+        "std_confidence": 0.08160985605650187
+      },
+      "timestamp": "2025-11-14T23:50:21.031923"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 0,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.14875341951847076,
+          "timestamp": "2025-11-14T23:50:21.281441"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.12270209193229675,
+          "timestamp": "2025-11-14T23:50:21.312122"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.1145956739783287,
+          "timestamp": "2025-11-14T23:50:21.343534"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.16571150720119476,
+          "timestamp": "2025-11-14T23:50:21.374406"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.3084814250469208,
+          "timestamp": "2025-11-14T23:50:21.405172"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.10368069261312485,
+          "timestamp": "2025-11-14T23:50:21.435020"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.18821322917938232,
+          "timestamp": "2025-11-14T23:50:21.467289"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.11605140566825867,
+          "timestamp": "2025-11-14T23:50:21.499885"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.1712256371974945,
+          "timestamp": "2025-11-14T23:50:21.526178"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.1407647579908371,
+          "timestamp": "2025-11-14T23:50:21.563631"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15801798403263093,
+        "std_confidence": 0.05658143022264783
+      },
+      "timestamp": "2025-11-14T23:50:21.564257"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 0,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.11165861785411835,
+          "timestamp": "2025-11-14T23:50:21.828472"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.14746859669685364,
+          "timestamp": "2025-11-14T23:50:21.862316"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.08296161890029907,
+          "timestamp": "2025-11-14T23:50:21.895300"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.08751164376735687,
+          "timestamp": "2025-11-14T23:50:21.927994"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.10238230228424072,
+          "timestamp": "2025-11-14T23:50:21.962593"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 756,
+          "confidence": 0.11904243379831314,
+          "timestamp": "2025-11-14T23:50:21.994109"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.11940252035856247,
+          "timestamp": "2025-11-14T23:50:22.024276"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1567521095275879,
+          "timestamp": "2025-11-14T23:50:22.055784"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 756,
+          "confidence": 0.10059917718172073,
+          "timestamp": "2025-11-14T23:50:22.087509"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.1242261454463005,
+          "timestamp": "2025-11-14T23:50:22.114948"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.11520051658153534,
+        "std_confidence": 0.02253378350119315
+      },
+      "timestamp": "2025-11-14T23:50:22.115528"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 15,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 659,
+          "confidence": 0.12315481156110764,
+          "timestamp": "2025-11-14T23:50:22.373774"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 756,
+          "confidence": 0.0877409502863884,
+          "timestamp": "2025-11-14T23:50:22.407510"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.08300145715475082,
+          "timestamp": "2025-11-14T23:50:22.439004"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.1096147745847702,
+          "timestamp": "2025-11-14T23:50:22.469795"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.12152823805809021,
+          "timestamp": "2025-11-14T23:50:22.499535"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.07565431296825409,
+          "timestamp": "2025-11-14T23:50:22.532297"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.08767616003751755,
+          "timestamp": "2025-11-14T23:50:22.561355"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.09111854434013367,
+          "timestamp": "2025-11-14T23:50:22.592517"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.10482543706893921,
+          "timestamp": "2025-11-14T23:50:22.623531"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.20071999728679657,
+          "timestamp": "2025-11-14T23:50:22.656548"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.10850346833467484,
+        "std_confidence": 0.03435035910096417
+      },
+      "timestamp": "2025-11-14T23:50:22.657139"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 15,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1440606713294983,
+          "timestamp": "2025-11-14T23:50:22.924277"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.0988657996058464,
+          "timestamp": "2025-11-14T23:50:22.948410"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.18821962177753448,
+          "timestamp": "2025-11-14T23:50:22.965687"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.09882908314466476,
+          "timestamp": "2025-11-14T23:50:22.984059"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.12924695014953613,
+          "timestamp": "2025-11-14T23:50:23.012477"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.1378711462020874,
+          "timestamp": "2025-11-14T23:50:23.043249"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.16390590369701385,
+          "timestamp": "2025-11-14T23:50:23.076613"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.1474199891090393,
+          "timestamp": "2025-11-14T23:50:23.108688"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.09620009362697601,
+          "timestamp": "2025-11-14T23:50:23.143622"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.13013990223407745,
+          "timestamp": "2025-11-14T23:50:23.177679"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1334759160876274,
+        "std_confidence": 0.0283996707720372
+      },
+      "timestamp": "2025-11-14T23:50:23.178348"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 15,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.1322166919708252,
+          "timestamp": "2025-11-14T23:50:23.423223"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.16102203726768494,
+          "timestamp": "2025-11-14T23:50:23.454885"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.1262848973274231,
+          "timestamp": "2025-11-14T23:50:23.484805"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 659,
+          "confidence": 0.09620577841997147,
+          "timestamp": "2025-11-14T23:50:23.514164"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.14191529154777527,
+          "timestamp": "2025-11-14T23:50:23.542079"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.16196107864379883,
+          "timestamp": "2025-11-14T23:50:23.569529"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.0812324583530426,
+          "timestamp": "2025-11-14T23:50:23.593332"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.1253286600112915,
+          "timestamp": "2025-11-14T23:50:23.613720"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.16202394664287567,
+          "timestamp": "2025-11-14T23:50:23.639970"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.10279999673366547,
+          "timestamp": "2025-11-14T23:50:23.668087"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1290990836918354,
+        "std_confidence": 0.027283636140096146
+      },
+      "timestamp": "2025-11-14T23:50:23.668613"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 15,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.09954999387264252,
+          "timestamp": "2025-11-14T23:50:23.932646"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.12123283743858337,
+          "timestamp": "2025-11-14T23:50:23.965721"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.11988425254821777,
+          "timestamp": "2025-11-14T23:50:23.997537"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.1579885184764862,
+          "timestamp": "2025-11-14T23:50:24.031819"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.12391902506351471,
+          "timestamp": "2025-11-14T23:50:24.061992"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.08443877100944519,
+          "timestamp": "2025-11-14T23:50:24.095203"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.1522168666124344,
+          "timestamp": "2025-11-14T23:50:24.123860"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.13918782770633698,
+          "timestamp": "2025-11-14T23:50:24.151531"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 756,
+          "confidence": 0.08819612115621567,
+          "timestamp": "2025-11-14T23:50:24.177730"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.1487523466348648,
+          "timestamp": "2025-11-14T23:50:24.203967"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.12353665605187417,
+        "std_confidence": 0.025024043137905207
+      },
+      "timestamp": "2025-11-14T23:50:24.204547"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 30,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.16470283269882202,
+          "timestamp": "2025-11-14T23:50:24.475867"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.2536046504974365,
+          "timestamp": "2025-11-14T23:50:24.507468"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.13109271228313446,
+          "timestamp": "2025-11-14T23:50:24.538084"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.08495771884918213,
+          "timestamp": "2025-11-14T23:50:24.568129"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.1949145644903183,
+          "timestamp": "2025-11-14T23:50:24.599129"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.22543971240520477,
+          "timestamp": "2025-11-14T23:50:24.632605"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 756,
+          "confidence": 0.09779249876737595,
+          "timestamp": "2025-11-14T23:50:24.662170"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.0813361331820488,
+          "timestamp": "2025-11-14T23:50:24.697274"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 659,
+          "confidence": 0.080617755651474,
+          "timestamp": "2025-11-14T23:50:24.737488"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.15943557024002075,
+          "timestamp": "2025-11-14T23:50:24.781650"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14738941490650176,
+        "std_confidence": 0.05960006135395133
+      },
+      "timestamp": "2025-11-14T23:50:24.782426"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 30,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.10910945385694504,
+          "timestamp": "2025-11-14T23:50:25.052785"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.23106266558170319,
+          "timestamp": "2025-11-14T23:50:25.088611"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.08755317330360413,
+          "timestamp": "2025-11-14T23:50:25.123716"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.07546383142471313,
+          "timestamp": "2025-11-14T23:50:25.157555"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.144759401679039,
+          "timestamp": "2025-11-14T23:50:25.189318"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.23449625074863434,
+          "timestamp": "2025-11-14T23:50:25.218168"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.09800668060779572,
+          "timestamp": "2025-11-14T23:50:25.248763"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.13115626573562622,
+          "timestamp": "2025-11-14T23:50:25.280434"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 756,
+          "confidence": 0.07979217916727066,
+          "timestamp": "2025-11-14T23:50:25.310417"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.13332588970661163,
+          "timestamp": "2025-11-14T23:50:25.339011"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.13247257918119432,
+        "std_confidence": 0.054826061507067196
+      },
+      "timestamp": "2025-11-14T23:50:25.339603"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 30,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.19119305908679962,
+          "timestamp": "2025-11-14T23:50:25.592380"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.12273746728897095,
+          "timestamp": "2025-11-14T23:50:25.627762"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.1810017079114914,
+          "timestamp": "2025-11-14T23:50:25.659463"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.07227165251970291,
+          "timestamp": "2025-11-14T23:50:25.690556"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 659,
+          "confidence": 0.10624341666698456,
+          "timestamp": "2025-11-14T23:50:25.723093"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 756,
+          "confidence": 0.08083245903253555,
+          "timestamp": "2025-11-14T23:50:25.754986"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.08556635677814484,
+          "timestamp": "2025-11-14T23:50:25.784147"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.11223161965608597,
+          "timestamp": "2025-11-14T23:50:25.816759"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11327088624238968,
+          "timestamp": "2025-11-14T23:50:25.848107"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.09454924613237381,
+          "timestamp": "2025-11-14T23:50:25.877693"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.11598978713154792,
+        "std_confidence": 0.0381794657527288
+      },
+      "timestamp": "2025-11-14T23:50:25.878339"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 30,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.1006535068154335,
+          "timestamp": "2025-11-14T23:50:26.145279"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.10268846899271011,
+          "timestamp": "2025-11-14T23:50:26.190422"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.23236414790153503,
+          "timestamp": "2025-11-14T23:50:26.217101"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.12028270214796066,
+          "timestamp": "2025-11-14T23:50:26.243352"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.12772081792354584,
+          "timestamp": "2025-11-14T23:50:26.270819"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.08904780447483063,
+          "timestamp": "2025-11-14T23:50:26.301866"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 111,
+          "confidence": 0.13423709571361542,
+          "timestamp": "2025-11-14T23:50:26.335344"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 111,
+          "confidence": 0.12532939016819,
+          "timestamp": "2025-11-14T23:50:26.359600"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.15263614058494568,
+          "timestamp": "2025-11-14T23:50:26.384172"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.1900503784418106,
+          "timestamp": "2025-11-14T23:50:26.412491"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.13750104531645774,
+        "std_confidence": 0.04178254612884882
+      },
+      "timestamp": "2025-11-14T23:50:26.413160"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 45,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 659,
+          "confidence": 0.09436354041099548,
+          "timestamp": "2025-11-14T23:50:26.677023"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 111,
+          "confidence": 0.08404343575239182,
+          "timestamp": "2025-11-14T23:50:26.714071"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.12642531096935272,
+          "timestamp": "2025-11-14T23:50:26.754101"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.11773505806922913,
+          "timestamp": "2025-11-14T23:50:26.781668"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 111,
+          "confidence": 0.11671892553567886,
+          "timestamp": "2025-11-14T23:50:26.808409"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 111,
+          "confidence": 0.11968643963336945,
+          "timestamp": "2025-11-14T23:50:26.832367"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 659,
+          "confidence": 0.10843554139137268,
+          "timestamp": "2025-11-14T23:50:26.856222"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 659,
+          "confidence": 0.0789749026298523,
+          "timestamp": "2025-11-14T23:50:26.881640"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 111,
+          "confidence": 0.1930479109287262,
+          "timestamp": "2025-11-14T23:50:26.908976"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 111,
+          "confidence": 0.15814821422100067,
+          "timestamp": "2025-11-14T23:50:26.931322"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.11975792795419693,
+        "std_confidence": 0.032580475431134
+      },
+      "timestamp": "2025-11-14T23:50:26.931923"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 45,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 111,
+          "confidence": 0.10579899698495865,
+          "timestamp": "2025-11-14T23:50:27.177520"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 756,
+          "confidence": 0.10478125512599945,
+          "timestamp": "2025-11-14T23:50:27.204319"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.13400468230247498,
+          "timestamp": "2025-11-14T23:50:27.231101"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 111,
+          "confidence": 0.137067049741745,
+          "timestamp": "2025-11-14T23:50:27.261017"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.10525520890951157,
+          "timestamp": "2025-11-14T23:50:27.293126"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1163749247789383,
+          "timestamp": "2025-11-14T23:50:27.323072"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10685216635465622,
+          "timestamp": "2025-11-14T23:50:27.355458"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1114087700843811,
+          "timestamp": "2025-11-14T23:50:27.384733"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.12103894352912903,
+          "timestamp": "2025-11-14T23:50:27.419317"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.12818478047847748,
+          "timestamp": "2025-11-14T23:50:27.448434"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.11707667782902717,
+        "std_confidence": 0.01174959872134925
+      },
+      "timestamp": "2025-11-14T23:50:27.449123"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 45,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.09163354337215424,
+          "timestamp": "2025-11-14T23:50:27.696166"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.15287286043167114,
+          "timestamp": "2025-11-14T23:50:27.726654"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14416764676570892,
+          "timestamp": "2025-11-14T23:50:27.758314"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1008162572979927,
+          "timestamp": "2025-11-14T23:50:27.789095"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.15091660618782043,
+          "timestamp": "2025-11-14T23:50:27.819888"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12258875370025635,
+          "timestamp": "2025-11-14T23:50:27.850150"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1300908774137497,
+          "timestamp": "2025-11-14T23:50:27.882987"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.13173437118530273,
+          "timestamp": "2025-11-14T23:50:27.913485"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11086712777614594,
+          "timestamp": "2025-11-14T23:50:27.945179"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.19126345217227936,
+          "timestamp": "2025-11-14T23:50:27.975294"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.13269514963030815,
+        "std_confidence": 0.027549323287559168
+      },
+      "timestamp": "2025-11-14T23:50:27.975928"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 45,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.2909921705722809,
+          "timestamp": "2025-11-14T23:50:28.235966"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.2940105199813843,
+          "timestamp": "2025-11-14T23:50:28.272165"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.4271105229854584,
+          "timestamp": "2025-11-14T23:50:28.300786"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.4089714586734772,
+          "timestamp": "2025-11-14T23:50:28.333769"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.47143030166625977,
+          "timestamp": "2025-11-14T23:50:28.364223"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.36181703209877014,
+          "timestamp": "2025-11-14T23:50:28.394665"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.32361531257629395,
+          "timestamp": "2025-11-14T23:50:28.427305"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.28106021881103516,
+          "timestamp": "2025-11-14T23:50:28.456815"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.3038189709186554,
+          "timestamp": "2025-11-14T23:50:28.488468"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.38125932216644287,
+          "timestamp": "2025-11-14T23:50:28.517371"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.3544085830450058,
+        "std_confidence": 0.06268149144330873
+      },
+      "timestamp": "2025-11-14T23:50:28.517986"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 60,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.28705474734306335,
+          "timestamp": "2025-11-14T23:50:28.779747"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.32915666699409485,
+          "timestamp": "2025-11-14T23:50:28.811284"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.35352253913879395,
+          "timestamp": "2025-11-14T23:50:28.842681"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.3557511568069458,
+          "timestamp": "2025-11-14T23:50:28.872692"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.33851659297943115,
+          "timestamp": "2025-11-14T23:50:28.903906"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.3022973835468292,
+          "timestamp": "2025-11-14T23:50:28.933415"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10407368838787079,
+          "timestamp": "2025-11-14T23:50:28.965455"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.09907959401607513,
+          "timestamp": "2025-11-14T23:50:28.996308"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1768309473991394,
+          "timestamp": "2025-11-14T23:50:29.027516"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.16930779814720154,
+          "timestamp": "2025-11-14T23:50:29.058067"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.2515591114759445,
+        "std_confidence": 0.09799048415026944
+      },
+      "timestamp": "2025-11-14T23:50:29.058752"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 60,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.13715380430221558,
+          "timestamp": "2025-11-14T23:50:29.320685"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.16034480929374695,
+          "timestamp": "2025-11-14T23:50:29.358133"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 111,
+          "confidence": 0.12468471378087997,
+          "timestamp": "2025-11-14T23:50:29.387518"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13646017014980316,
+          "timestamp": "2025-11-14T23:50:29.417603"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.17128455638885498,
+          "timestamp": "2025-11-14T23:50:29.448561"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12963707745075226,
+          "timestamp": "2025-11-14T23:50:29.480798"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.22269345819950104,
+          "timestamp": "2025-11-14T23:50:29.512647"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.13639439642429352,
+          "timestamp": "2025-11-14T23:50:29.543388"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.20369958877563477,
+          "timestamp": "2025-11-14T23:50:29.574183"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.13801971077919006,
+          "timestamp": "2025-11-14T23:50:29.604469"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15603722855448723,
+        "std_confidence": 0.03177428941665302
+      },
+      "timestamp": "2025-11-14T23:50:29.605126"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 60,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1520976722240448,
+          "timestamp": "2025-11-14T23:50:29.854231"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1444915384054184,
+          "timestamp": "2025-11-14T23:50:29.878781"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.13414807617664337,
+          "timestamp": "2025-11-14T23:50:29.908843"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.125656396150589,
+          "timestamp": "2025-11-14T23:50:29.938365"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 756,
+          "confidence": 0.18273888528347015,
+          "timestamp": "2025-11-14T23:50:29.970975"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13365881145000458,
+          "timestamp": "2025-11-14T23:50:29.997450"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10226453840732574,
+          "timestamp": "2025-11-14T23:50:30.028352"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11000367254018784,
+          "timestamp": "2025-11-14T23:50:30.061230"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.185977965593338,
+          "timestamp": "2025-11-14T23:50:30.094034"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.13062304258346558,
+          "timestamp": "2025-11-14T23:50:30.123805"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14016605988144876,
+        "std_confidence": 0.026074324873620557
+      },
+      "timestamp": "2025-11-14T23:50:30.124431"
+    },
+    {
+      "condition": {
+        "lighting": "low",
+        "angle_degrees": 60,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15411654114723206,
+          "timestamp": "2025-11-14T23:50:30.371765"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14664018154144287,
+          "timestamp": "2025-11-14T23:50:30.406520"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.09105031937360764,
+          "timestamp": "2025-11-14T23:50:30.449820"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.24992382526397705,
+          "timestamp": "2025-11-14T23:50:30.476795"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.17708827555179596,
+          "timestamp": "2025-11-14T23:50:30.506833"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15778182446956635,
+          "timestamp": "2025-11-14T23:50:30.536683"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.13313326239585876,
+          "timestamp": "2025-11-14T23:50:30.561906"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.13606828451156616,
+          "timestamp": "2025-11-14T23:50:30.591664"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.16795788705348969,
+          "timestamp": "2025-11-14T23:50:30.624488"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1545511782169342,
+          "timestamp": "2025-11-14T23:50:30.656807"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15683115795254707,
+        "std_confidence": 0.03825902864892848
+      },
+      "timestamp": "2025-11-14T23:50:30.657404"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 0,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.18870232999324799,
+          "timestamp": "2025-11-14T23:50:30.911897"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14959535002708435,
+          "timestamp": "2025-11-14T23:50:30.943891"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.22376877069473267,
+          "timestamp": "2025-11-14T23:50:30.979778"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13537369668483734,
+          "timestamp": "2025-11-14T23:50:31.013170"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13438525795936584,
+          "timestamp": "2025-11-14T23:50:31.046006"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15389078855514526,
+          "timestamp": "2025-11-14T23:50:31.067480"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.19358298182487488,
+          "timestamp": "2025-11-14T23:50:31.092275"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.14955100417137146,
+          "timestamp": "2025-11-14T23:50:31.120875"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.12932135164737701,
+          "timestamp": "2025-11-14T23:50:31.147703"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.11523236334323883,
+          "timestamp": "2025-11-14T23:50:31.169228"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15734038949012757,
+        "std_confidence": 0.032264551060388516
+      },
+      "timestamp": "2025-11-14T23:50:31.169819"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 0,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.19118566811084747,
+          "timestamp": "2025-11-14T23:50:31.424145"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1925680935382843,
+          "timestamp": "2025-11-14T23:50:31.459210"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.16496659815311432,
+          "timestamp": "2025-11-14T23:50:31.494068"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12063596397638321,
+          "timestamp": "2025-11-14T23:50:31.523233"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.16524673998355865,
+          "timestamp": "2025-11-14T23:50:31.564116"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13302521407604218,
+          "timestamp": "2025-11-14T23:50:31.590128"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.15211890637874603,
+          "timestamp": "2025-11-14T23:50:31.610938"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.10990940779447556,
+          "timestamp": "2025-11-14T23:50:31.634177"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1691962033510208,
+          "timestamp": "2025-11-14T23:50:31.653499"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.18272028863430023,
+          "timestamp": "2025-11-14T23:50:31.678910"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1581573083996773,
+        "std_confidence": 0.027387212362975654
+      },
+      "timestamp": "2025-11-14T23:50:31.679452"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 0,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.14837919175624847,
+          "timestamp": "2025-11-14T23:50:31.929242"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1862453818321228,
+          "timestamp": "2025-11-14T23:50:31.963470"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.2080647051334381,
+          "timestamp": "2025-11-14T23:50:31.995960"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.16141322255134583,
+          "timestamp": "2025-11-14T23:50:32.025732"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1606438159942627,
+          "timestamp": "2025-11-14T23:50:32.056274"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1325431913137436,
+          "timestamp": "2025-11-14T23:50:32.087849"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.15293608605861664,
+          "timestamp": "2025-11-14T23:50:32.119178"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.13589011132717133,
+          "timestamp": "2025-11-14T23:50:32.150191"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11472495645284653,
+          "timestamp": "2025-11-14T23:50:32.181636"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.11923462152481079,
+          "timestamp": "2025-11-14T23:50:32.212581"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1520075283944607,
+        "std_confidence": 0.027557943338210322
+      },
+      "timestamp": "2025-11-14T23:50:32.213320"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 0,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.16894428431987762,
+          "timestamp": "2025-11-14T23:50:32.478083"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14545491337776184,
+          "timestamp": "2025-11-14T23:50:32.501122"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.19605612754821777,
+          "timestamp": "2025-11-14T23:50:32.525886"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13997335731983185,
+          "timestamp": "2025-11-14T23:50:32.554560"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1879587173461914,
+          "timestamp": "2025-11-14T23:50:32.584561"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13746277987957,
+          "timestamp": "2025-11-14T23:50:32.614372"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.14705078303813934,
+          "timestamp": "2025-11-14T23:50:32.643432"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1247921735048294,
+          "timestamp": "2025-11-14T23:50:32.670803"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1180550679564476,
+          "timestamp": "2025-11-14T23:50:32.687240"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.139177143573761,
+          "timestamp": "2025-11-14T23:50:32.704649"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1504925347864628,
+        "std_confidence": 0.024451195628262857
+      },
+      "timestamp": "2025-11-14T23:50:32.705216"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 15,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1267690360546112,
+          "timestamp": "2025-11-14T23:50:32.940615"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.11270391196012497,
+          "timestamp": "2025-11-14T23:50:32.970655"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14072971045970917,
+          "timestamp": "2025-11-14T23:50:32.990354"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1284068524837494,
+          "timestamp": "2025-11-14T23:50:33.007200"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.21554671227931976,
+          "timestamp": "2025-11-14T23:50:33.024266"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1091969758272171,
+          "timestamp": "2025-11-14T23:50:33.040590"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.14156095683574677,
+          "timestamp": "2025-11-14T23:50:33.059523"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.18205678462982178,
+          "timestamp": "2025-11-14T23:50:33.080448"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.14213941991329193,
+          "timestamp": "2025-11-14T23:50:33.098355"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.16536876559257507,
+          "timestamp": "2025-11-14T23:50:33.120775"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14644791260361673,
+        "std_confidence": 0.03116858313391324
+      },
+      "timestamp": "2025-11-14T23:50:33.121329"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 15,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15497925877571106,
+          "timestamp": "2025-11-14T23:50:33.384023"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.08276157081127167,
+          "timestamp": "2025-11-14T23:50:33.415646"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.16271474957466125,
+          "timestamp": "2025-11-14T23:50:33.446263"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.15527427196502686,
+          "timestamp": "2025-11-14T23:50:33.473832"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1512386053800583,
+          "timestamp": "2025-11-14T23:50:33.500338"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15652582049369812,
+          "timestamp": "2025-11-14T23:50:33.523024"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1583714783191681,
+          "timestamp": "2025-11-14T23:50:33.544569"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.13586537539958954,
+          "timestamp": "2025-11-14T23:50:33.571669"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1467559039592743,
+          "timestamp": "2025-11-14T23:50:33.596586"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.17410631477832794,
+          "timestamp": "2025-11-14T23:50:33.615725"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1478593349456787,
+        "std_confidence": 0.02365393417603553
+      },
+      "timestamp": "2025-11-14T23:50:33.616336"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 15,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1262894719839096,
+          "timestamp": "2025-11-14T23:50:33.854821"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.11061334609985352,
+          "timestamp": "2025-11-14T23:50:33.884280"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.13811416923999786,
+          "timestamp": "2025-11-14T23:50:33.912223"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.19948923587799072,
+          "timestamp": "2025-11-14T23:50:33.941633"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1589256227016449,
+          "timestamp": "2025-11-14T23:50:33.967390"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.17307418584823608,
+          "timestamp": "2025-11-14T23:50:33.988351"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10387996584177017,
+          "timestamp": "2025-11-14T23:50:34.008676"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.10928268730640411,
+          "timestamp": "2025-11-14T23:50:34.027906"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.17997905611991882,
+          "timestamp": "2025-11-14T23:50:34.042067"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.16440975666046143,
+          "timestamp": "2025-11-14T23:50:34.060829"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14640574976801873,
+        "std_confidence": 0.03174617382829612
+      },
+      "timestamp": "2025-11-14T23:50:34.061339"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 15,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15819641947746277,
+          "timestamp": "2025-11-14T23:50:34.296822"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.15079134702682495,
+          "timestamp": "2025-11-14T23:50:34.319085"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1750389188528061,
+          "timestamp": "2025-11-14T23:50:34.345406"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.17211391031742096,
+          "timestamp": "2025-11-14T23:50:34.370453"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.18679744005203247,
+          "timestamp": "2025-11-14T23:50:34.396688"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1456180065870285,
+          "timestamp": "2025-11-14T23:50:34.415264"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.2056472897529602,
+          "timestamp": "2025-11-14T23:50:34.446077"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.2262544482946396,
+          "timestamp": "2025-11-14T23:50:34.480698"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1538550704717636,
+          "timestamp": "2025-11-14T23:50:34.507246"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 756,
+          "confidence": 0.152002215385437,
+          "timestamp": "2025-11-14T23:50:34.529286"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.17263150662183763,
+        "std_confidence": 0.02522977353541824
+      },
+      "timestamp": "2025-11-14T23:50:34.529805"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 30,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.12932027876377106,
+          "timestamp": "2025-11-14T23:50:34.775003"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.18024112284183502,
+          "timestamp": "2025-11-14T23:50:34.809253"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.15512272715568542,
+          "timestamp": "2025-11-14T23:50:34.837648"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.17992696166038513,
+          "timestamp": "2025-11-14T23:50:34.858622"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13335037231445312,
+          "timestamp": "2025-11-14T23:50:34.876963"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.10845308005809784,
+          "timestamp": "2025-11-14T23:50:34.894233"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.12077763676643372,
+          "timestamp": "2025-11-14T23:50:34.919151"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.19223934412002563,
+          "timestamp": "2025-11-14T23:50:34.942817"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.12430234253406525,
+          "timestamp": "2025-11-14T23:50:34.963134"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.14162009954452515,
+          "timestamp": "2025-11-14T23:50:34.986288"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14653539657592773,
+        "std_confidence": 0.027415442134437095
+      },
+      "timestamp": "2025-11-14T23:50:34.986889"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 30,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.13091886043548584,
+          "timestamp": "2025-11-14T23:50:35.240492"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.2224835306406021,
+          "timestamp": "2025-11-14T23:50:35.274970"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.13166598975658417,
+          "timestamp": "2025-11-14T23:50:35.303429"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.19239138066768646,
+          "timestamp": "2025-11-14T23:50:35.333810"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.20442697405815125,
+          "timestamp": "2025-11-14T23:50:35.360585"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.2127329260110855,
+          "timestamp": "2025-11-14T23:50:35.384334"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.18712522089481354,
+          "timestamp": "2025-11-14T23:50:35.405365"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.17274025082588196,
+          "timestamp": "2025-11-14T23:50:35.425525"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.12292958796024323,
+          "timestamp": "2025-11-14T23:50:35.442039"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.12638147175312042,
+          "timestamp": "2025-11-14T23:50:35.459033"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.17037961930036544,
+        "std_confidence": 0.03698862931922491
+      },
+      "timestamp": "2025-11-14T23:50:35.459551"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 30,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1533498913049698,
+          "timestamp": "2025-11-14T23:50:35.723319"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14997470378875732,
+          "timestamp": "2025-11-14T23:50:35.752678"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14556320011615753,
+          "timestamp": "2025-11-14T23:50:35.783982"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.18249116837978363,
+          "timestamp": "2025-11-14T23:50:35.812306"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.10609196126461029,
+          "timestamp": "2025-11-14T23:50:35.833776"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15478287637233734,
+          "timestamp": "2025-11-14T23:50:35.855498"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.16626405715942383,
+          "timestamp": "2025-11-14T23:50:35.882495"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.18221881985664368,
+          "timestamp": "2025-11-14T23:50:35.907784"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.15173761546611786,
+          "timestamp": "2025-11-14T23:50:35.933635"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1534087061882019,
+          "timestamp": "2025-11-14T23:50:35.954582"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1545882999897003,
+        "std_confidence": 0.02035696668268207
+      },
+      "timestamp": "2025-11-14T23:50:35.955138"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 30,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.11862065643072128,
+          "timestamp": "2025-11-14T23:50:36.198088"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1587233543395996,
+          "timestamp": "2025-11-14T23:50:36.230177"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.12164526432752609,
+          "timestamp": "2025-11-14T23:50:36.262232"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1716812402009964,
+          "timestamp": "2025-11-14T23:50:36.293315"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.2551906108856201,
+          "timestamp": "2025-11-14T23:50:36.322735"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15446706116199493,
+          "timestamp": "2025-11-14T23:50:36.358756"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.2150178849697113,
+          "timestamp": "2025-11-14T23:50:36.392704"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.10179588198661804,
+          "timestamp": "2025-11-14T23:50:36.425053"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.16585534811019897,
+          "timestamp": "2025-11-14T23:50:36.449954"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.15742361545562744,
+          "timestamp": "2025-11-14T23:50:36.471429"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1620420917868614,
+        "std_confidence": 0.04339031150254223
+      },
+      "timestamp": "2025-11-14T23:50:36.472084"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 45,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.20566153526306152,
+          "timestamp": "2025-11-14T23:50:36.740299"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.13671329617500305,
+          "timestamp": "2025-11-14T23:50:36.774196"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.17846935987472534,
+          "timestamp": "2025-11-14T23:50:36.803486"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.14587771892547607,
+          "timestamp": "2025-11-14T23:50:36.829308"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1425705999135971,
+          "timestamp": "2025-11-14T23:50:36.848575"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1057237759232521,
+          "timestamp": "2025-11-14T23:50:36.871493"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.2166716605424881,
+          "timestamp": "2025-11-14T23:50:36.898544"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.14872296154499054,
+          "timestamp": "2025-11-14T23:50:36.924529"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.18200191855430603,
+          "timestamp": "2025-11-14T23:50:36.946168"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1160547211766243,
+          "timestamp": "2025-11-14T23:50:36.966291"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15784675478935242,
+        "std_confidence": 0.034821331032092534
+      },
+      "timestamp": "2025-11-14T23:50:36.966785"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 45,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1274045705795288,
+          "timestamp": "2025-11-14T23:50:37.224582"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.17959706485271454,
+          "timestamp": "2025-11-14T23:50:37.254610"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 659,
+          "confidence": 0.09266890585422516,
+          "timestamp": "2025-11-14T23:50:37.290700"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12310001254081726,
+          "timestamp": "2025-11-14T23:50:37.317928"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13087163865566254,
+          "timestamp": "2025-11-14T23:50:37.337050"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12020573019981384,
+          "timestamp": "2025-11-14T23:50:37.356022"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1762128472328186,
+          "timestamp": "2025-11-14T23:50:37.377822"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11836700141429901,
+          "timestamp": "2025-11-14T23:50:37.406623"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.13475781679153442,
+          "timestamp": "2025-11-14T23:50:37.429525"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.17114372551441193,
+          "timestamp": "2025-11-14T23:50:37.448049"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.13743293136358262,
+        "std_confidence": 0.027273476449715783
+      },
+      "timestamp": "2025-11-14T23:50:37.448617"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 45,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.13974671065807343,
+          "timestamp": "2025-11-14T23:50:37.684744"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.17694975435733795,
+          "timestamp": "2025-11-14T23:50:37.718872"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1827697902917862,
+          "timestamp": "2025-11-14T23:50:37.751111"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12102005630731583,
+          "timestamp": "2025-11-14T23:50:37.777393"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1337546408176422,
+          "timestamp": "2025-11-14T23:50:37.805983"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.16539819538593292,
+          "timestamp": "2025-11-14T23:50:37.834224"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1390814334154129,
+          "timestamp": "2025-11-14T23:50:37.866807"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.20269836485385895,
+          "timestamp": "2025-11-14T23:50:37.890445"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.17361965775489807,
+          "timestamp": "2025-11-14T23:50:37.915032"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1501138061285019,
+          "timestamp": "2025-11-14T23:50:37.938867"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15851524099707603,
+        "std_confidence": 0.024444370020516273
+      },
+      "timestamp": "2025-11-14T23:50:37.939389"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 45,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15328368544578552,
+          "timestamp": "2025-11-14T23:50:38.192522"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.2030153125524521,
+          "timestamp": "2025-11-14T23:50:38.216508"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.15862669050693512,
+          "timestamp": "2025-11-14T23:50:38.239443"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.16101795434951782,
+          "timestamp": "2025-11-14T23:50:38.267833"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13142943382263184,
+          "timestamp": "2025-11-14T23:50:38.294624"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13872945308685303,
+          "timestamp": "2025-11-14T23:50:38.320925"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.14401322603225708,
+          "timestamp": "2025-11-14T23:50:38.343441"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 756,
+          "confidence": 0.11644918471574783,
+          "timestamp": "2025-11-14T23:50:38.362682"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.14512035250663757,
+          "timestamp": "2025-11-14T23:50:38.391092"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.13646045327186584,
+          "timestamp": "2025-11-14T23:50:38.419256"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14881457462906839,
+        "std_confidence": 0.022008382128412312
+      },
+      "timestamp": "2025-11-14T23:50:38.419806"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 60,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.20236334204673767,
+          "timestamp": "2025-11-14T23:50:38.673366"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1626337766647339,
+          "timestamp": "2025-11-14T23:50:38.707567"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.17903032898902893,
+          "timestamp": "2025-11-14T23:50:38.741563"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12487082183361053,
+          "timestamp": "2025-11-14T23:50:38.774949"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.11185751855373383,
+          "timestamp": "2025-11-14T23:50:38.807606"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1979268342256546,
+          "timestamp": "2025-11-14T23:50:38.839056"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.17443475127220154,
+          "timestamp": "2025-11-14T23:50:38.868881"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.15721258521080017,
+          "timestamp": "2025-11-14T23:50:38.893855"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11624503135681152,
+          "timestamp": "2025-11-14T23:50:38.919307"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.17687112092971802,
+          "timestamp": "2025-11-14T23:50:38.945402"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.16034461110830306,
+        "std_confidence": 0.03093221870942797
+      },
+      "timestamp": "2025-11-14T23:50:38.946055"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 60,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1730424165725708,
+          "timestamp": "2025-11-14T23:50:39.180549"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.10929636657238007,
+          "timestamp": "2025-11-14T23:50:39.210783"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.11275077611207962,
+          "timestamp": "2025-11-14T23:50:39.243498"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13097873330116272,
+          "timestamp": "2025-11-14T23:50:39.275208"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1967248171567917,
+          "timestamp": "2025-11-14T23:50:39.308439"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1271304190158844,
+          "timestamp": "2025-11-14T23:50:39.336714"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.15823271870613098,
+          "timestamp": "2025-11-14T23:50:39.369609"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.15835857391357422,
+          "timestamp": "2025-11-14T23:50:39.400365"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.16257944703102112,
+          "timestamp": "2025-11-14T23:50:39.430392"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.15808485448360443,
+          "timestamp": "2025-11-14T23:50:39.461546"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14871791228652,
+        "std_confidence": 0.026434998697293367
+      },
+      "timestamp": "2025-11-14T23:50:39.462201"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 60,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 756,
+          "confidence": 0.10175088047981262,
+          "timestamp": "2025-11-14T23:50:39.727706"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.15835748612880707,
+          "timestamp": "2025-11-14T23:50:39.763144"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.12378577142953873,
+          "timestamp": "2025-11-14T23:50:39.792337"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1717894822359085,
+          "timestamp": "2025-11-14T23:50:39.822844"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.12372557818889618,
+          "timestamp": "2025-11-14T23:50:39.855684"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.11299286037683487,
+          "timestamp": "2025-11-14T23:50:39.885343"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1363203227519989,
+          "timestamp": "2025-11-14T23:50:39.918668"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11198744922876358,
+          "timestamp": "2025-11-14T23:50:39.947695"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11760865896940231,
+          "timestamp": "2025-11-14T23:50:39.978667"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.2310159057378769,
+          "timestamp": "2025-11-14T23:50:40.010078"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.13893343955278398,
+        "std_confidence": 0.036932156706360394
+      },
+      "timestamp": "2025-11-14T23:50:40.010687"
+    },
+    {
+      "condition": {
+        "lighting": "medium",
+        "angle_degrees": 60,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 756,
+          "confidence": 0.11594843864440918,
+          "timestamp": "2025-11-14T23:50:40.262638"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.19857007265090942,
+          "timestamp": "2025-11-14T23:50:40.294709"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1716727912425995,
+          "timestamp": "2025-11-14T23:50:40.327493"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.16960766911506653,
+          "timestamp": "2025-11-14T23:50:40.358954"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.20072485506534576,
+          "timestamp": "2025-11-14T23:50:40.389947"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.2123168706893921,
+          "timestamp": "2025-11-14T23:50:40.421638"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.23995934426784515,
+          "timestamp": "2025-11-14T23:50:40.454856"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.20710758864879608,
+          "timestamp": "2025-11-14T23:50:40.489601"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.13928116858005524,
+          "timestamp": "2025-11-14T23:50:40.525295"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.11483617126941681,
+          "timestamp": "2025-11-14T23:50:40.556999"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.17700249701738358,
+        "std_confidence": 0.040302772484041155
+      },
+      "timestamp": "2025-11-14T23:50:40.557698"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 0,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.07464493811130524,
+          "timestamp": "2025-11-14T23:50:40.806899"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 620,
+          "confidence": 0.10838541388511658,
+          "timestamp": "2025-11-14T23:50:40.837986"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1790931671857834,
+          "timestamp": "2025-11-14T23:50:40.868472"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13079901039600372,
+          "timestamp": "2025-11-14T23:50:40.902934"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 620,
+          "confidence": 0.11699581146240234,
+          "timestamp": "2025-11-14T23:50:40.933332"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12151172757148743,
+          "timestamp": "2025-11-14T23:50:40.965365"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 620,
+          "confidence": 0.10678252577781677,
+          "timestamp": "2025-11-14T23:50:40.996101"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1416769027709961,
+          "timestamp": "2025-11-14T23:50:41.027699"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1975584179162979,
+          "timestamp": "2025-11-14T23:50:41.058076"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.2530681788921356,
+          "timestamp": "2025-11-14T23:50:41.090846"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1430516093969345,
+        "std_confidence": 0.049865000708076375
+      },
+      "timestamp": "2025-11-14T23:50:41.091460"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 0,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.2752573490142822,
+          "timestamp": "2025-11-14T23:50:41.356263"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.15603721141815186,
+          "timestamp": "2025-11-14T23:50:41.391239"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.18334996700286865,
+          "timestamp": "2025-11-14T23:50:41.425803"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.10769472271203995,
+          "timestamp": "2025-11-14T23:50:41.459430"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13347136974334717,
+          "timestamp": "2025-11-14T23:50:41.493028"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.16049952805042267,
+          "timestamp": "2025-11-14T23:50:41.526910"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1639106422662735,
+          "timestamp": "2025-11-14T23:50:41.557385"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 756,
+          "confidence": 0.12726356089115143,
+          "timestamp": "2025-11-14T23:50:41.591074"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.12336530536413193,
+          "timestamp": "2025-11-14T23:50:41.622414"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.19335588812828064,
+          "timestamp": "2025-11-14T23:50:41.653479"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.162420554459095,
+        "std_confidence": 0.045572067970824665
+      },
+      "timestamp": "2025-11-14T23:50:41.654115"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 0,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.12866944074630737,
+          "timestamp": "2025-11-14T23:50:41.901444"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.18558482825756073,
+          "timestamp": "2025-11-14T23:50:41.940080"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1188025176525116,
+          "timestamp": "2025-11-14T23:50:41.976970"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.19698575139045715,
+          "timestamp": "2025-11-14T23:50:42.003879"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.18724223971366882,
+          "timestamp": "2025-11-14T23:50:42.027951"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.10093158483505249,
+          "timestamp": "2025-11-14T23:50:42.052282"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.17122875154018402,
+          "timestamp": "2025-11-14T23:50:42.074629"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.12553159892559052,
+          "timestamp": "2025-11-14T23:50:42.106908"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1941942572593689,
+          "timestamp": "2025-11-14T23:50:42.139830"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.11929501593112946,
+          "timestamp": "2025-11-14T23:50:42.163622"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1528465986251831,
+        "std_confidence": 0.03544174094422291
+      },
+      "timestamp": "2025-11-14T23:50:42.164337"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 0,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.18255986273288727,
+          "timestamp": "2025-11-14T23:50:42.404181"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14093036949634552,
+          "timestamp": "2025-11-14T23:50:42.439455"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1570117026567459,
+          "timestamp": "2025-11-14T23:50:42.473501"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.158952534198761,
+          "timestamp": "2025-11-14T23:50:42.509063"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.14230462908744812,
+          "timestamp": "2025-11-14T23:50:42.541159"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.15741384029388428,
+          "timestamp": "2025-11-14T23:50:42.575825"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.15099793672561646,
+          "timestamp": "2025-11-14T23:50:42.606104"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1704580932855606,
+          "timestamp": "2025-11-14T23:50:42.630825"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1610548496246338,
+          "timestamp": "2025-11-14T23:50:42.658184"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1595660299062729,
+          "timestamp": "2025-11-14T23:50:42.687442"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15812498480081558,
+        "std_confidence": 0.011657584525166523
+      },
+      "timestamp": "2025-11-14T23:50:42.688072"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 15,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1567901074886322,
+          "timestamp": "2025-11-14T23:50:42.953922"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1464773565530777,
+          "timestamp": "2025-11-14T23:50:42.985576"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1293516904115677,
+          "timestamp": "2025-11-14T23:50:43.014822"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1434991955757141,
+          "timestamp": "2025-11-14T23:50:43.047642"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1526903361082077,
+          "timestamp": "2025-11-14T23:50:43.080288"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12729720771312714,
+          "timestamp": "2025-11-14T23:50:43.104173"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.1880265176296234,
+          "timestamp": "2025-11-14T23:50:43.144900"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.12447827309370041,
+          "timestamp": "2025-11-14T23:50:43.180159"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.14675068855285645,
+          "timestamp": "2025-11-14T23:50:43.205987"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.13669416308403015,
+          "timestamp": "2025-11-14T23:50:43.225606"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1452055536210537,
+        "std_confidence": 0.017620707014773022
+      },
+      "timestamp": "2025-11-14T23:50:43.226161"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 15,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.17691442370414734,
+          "timestamp": "2025-11-14T23:50:43.475017"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14156195521354675,
+          "timestamp": "2025-11-14T23:50:43.503302"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.2168160080909729,
+          "timestamp": "2025-11-14T23:50:43.522978"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.18681035935878754,
+          "timestamp": "2025-11-14T23:50:43.541174"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.11250204592943192,
+          "timestamp": "2025-11-14T23:50:43.559897"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.23048974573612213,
+          "timestamp": "2025-11-14T23:50:43.586992"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.16802912950515747,
+          "timestamp": "2025-11-14T23:50:43.609036"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11613982915878296,
+          "timestamp": "2025-11-14T23:50:43.631126"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.17113745212554932,
+          "timestamp": "2025-11-14T23:50:43.652754"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1618228703737259,
+          "timestamp": "2025-11-14T23:50:43.675851"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1682223819196224,
+        "std_confidence": 0.03638302464436231
+      },
+      "timestamp": "2025-11-14T23:50:43.676435"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 15,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.17543426156044006,
+          "timestamp": "2025-11-14T23:50:43.926122"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.12946821749210358,
+          "timestamp": "2025-11-14T23:50:43.955554"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1522969901561737,
+          "timestamp": "2025-11-14T23:50:43.985942"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13212546706199646,
+          "timestamp": "2025-11-14T23:50:44.016698"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1636405885219574,
+          "timestamp": "2025-11-14T23:50:44.042413"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.16961084306240082,
+          "timestamp": "2025-11-14T23:50:44.079803"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.11409083753824234,
+          "timestamp": "2025-11-14T23:50:44.111730"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11167492717504501,
+          "timestamp": "2025-11-14T23:50:44.141972"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.14228688180446625,
+          "timestamp": "2025-11-14T23:50:44.170341"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.11012424528598785,
+          "timestamp": "2025-11-14T23:50:44.202540"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14007532596588135,
+        "std_confidence": 0.02320934570742462
+      },
+      "timestamp": "2025-11-14T23:50:44.203097"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 15,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.20815549790859222,
+          "timestamp": "2025-11-14T23:50:44.468408"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.2102958858013153,
+          "timestamp": "2025-11-14T23:50:44.501291"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14216500520706177,
+          "timestamp": "2025-11-14T23:50:44.527958"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1344473958015442,
+          "timestamp": "2025-11-14T23:50:44.562947"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.12426821887493134,
+          "timestamp": "2025-11-14T23:50:44.593138"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13956084847450256,
+          "timestamp": "2025-11-14T23:50:44.622729"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.12239295989274979,
+          "timestamp": "2025-11-14T23:50:44.650395"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.12124491482973099,
+          "timestamp": "2025-11-14T23:50:44.674617"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.13201601803302765,
+          "timestamp": "2025-11-14T23:50:44.697858"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.21622493863105774,
+          "timestamp": "2025-11-14T23:50:44.724282"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15507716834545135,
+        "std_confidence": 0.03759311130165928
+      },
+      "timestamp": "2025-11-14T23:50:44.724879"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 30,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.23880460858345032,
+          "timestamp": "2025-11-14T23:50:44.981570"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.14971408247947693,
+          "timestamp": "2025-11-14T23:50:45.016159"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.0947728380560875,
+          "timestamp": "2025-11-14T23:50:45.051117"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1831529587507248,
+          "timestamp": "2025-11-14T23:50:45.091047"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.17565949261188507,
+          "timestamp": "2025-11-14T23:50:45.129804"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12021036446094513,
+          "timestamp": "2025-11-14T23:50:45.164553"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10600662976503372,
+          "timestamp": "2025-11-14T23:50:45.189858"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.14862267673015594,
+          "timestamp": "2025-11-14T23:50:45.213210"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.13548511266708374,
+          "timestamp": "2025-11-14T23:50:45.238620"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.2080426961183548,
+          "timestamp": "2025-11-14T23:50:45.264492"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15604714602231978,
+        "std_confidence": 0.043281174559254613
+      },
+      "timestamp": "2025-11-14T23:50:45.265562"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 30,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.14732873439788818,
+          "timestamp": "2025-11-14T23:50:45.521915"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.18106022477149963,
+          "timestamp": "2025-11-14T23:50:45.545611"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.21999390423297882,
+          "timestamp": "2025-11-14T23:50:45.566115"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.24106517434120178,
+          "timestamp": "2025-11-14T23:50:45.584669"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13865427672863007,
+          "timestamp": "2025-11-14T23:50:45.601656"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13306665420532227,
+          "timestamp": "2025-11-14T23:50:45.619782"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.13137000799179077,
+          "timestamp": "2025-11-14T23:50:45.640113"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.15175771713256836,
+          "timestamp": "2025-11-14T23:50:45.658418"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.1548435091972351,
+          "timestamp": "2025-11-14T23:50:45.680688"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.12035007029771805,
+          "timestamp": "2025-11-14T23:50:45.704785"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1619490273296833,
+        "std_confidence": 0.03795299857702612
+      },
+      "timestamp": "2025-11-14T23:50:45.705320"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 30,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1948704868555069,
+          "timestamp": "2025-11-14T23:50:45.955365"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.18573608994483948,
+          "timestamp": "2025-11-14T23:50:45.982249"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1637868732213974,
+          "timestamp": "2025-11-14T23:50:46.004209"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12123492360115051,
+          "timestamp": "2025-11-14T23:50:46.023772"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.09705934673547745,
+          "timestamp": "2025-11-14T23:50:46.042657"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.17020094394683838,
+          "timestamp": "2025-11-14T23:50:46.059272"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.11737538874149323,
+          "timestamp": "2025-11-14T23:50:46.082511"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1242160052061081,
+          "timestamp": "2025-11-14T23:50:46.098325"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.16954109072685242,
+          "timestamp": "2025-11-14T23:50:46.120162"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.12120399624109268,
+          "timestamp": "2025-11-14T23:50:46.143351"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14652251452207565,
+        "std_confidence": 0.032152825330217225
+      },
+      "timestamp": "2025-11-14T23:50:46.143894"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 30,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15146219730377197,
+          "timestamp": "2025-11-14T23:50:46.403710"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.13845914602279663,
+          "timestamp": "2025-11-14T23:50:46.436357"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.10710448026657104,
+          "timestamp": "2025-11-14T23:50:46.468283"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.12880972027778625,
+          "timestamp": "2025-11-14T23:50:46.502338"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.13798606395721436,
+          "timestamp": "2025-11-14T23:50:46.535460"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1539546102285385,
+          "timestamp": "2025-11-14T23:50:46.567013"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.08308707922697067,
+          "timestamp": "2025-11-14T23:50:46.597324"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.11910471320152283,
+          "timestamp": "2025-11-14T23:50:46.624762"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.19104070961475372,
+          "timestamp": "2025-11-14T23:50:46.653855"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.22796237468719482,
+          "timestamp": "2025-11-14T23:50:46.684908"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.1438971094787121,
+        "std_confidence": 0.03925077476792458
+      },
+      "timestamp": "2025-11-14T23:50:46.685515"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 45,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1273786872625351,
+          "timestamp": "2025-11-14T23:50:46.939432"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.17994746565818787,
+          "timestamp": "2025-11-14T23:50:46.968312"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 756,
+          "confidence": 0.09866943955421448,
+          "timestamp": "2025-11-14T23:50:46.997862"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.1528729498386383,
+          "timestamp": "2025-11-14T23:50:47.029491"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.12325314432382584,
+          "timestamp": "2025-11-14T23:50:47.057775"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1479846090078354,
+          "timestamp": "2025-11-14T23:50:47.078512"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.2070951759815216,
+          "timestamp": "2025-11-14T23:50:47.100227"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.20915727317333221,
+          "timestamp": "2025-11-14T23:50:47.125632"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.17269600927829742,
+          "timestamp": "2025-11-14T23:50:47.154870"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.13152839243412018,
+          "timestamp": "2025-11-14T23:50:47.183300"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15505831465125083,
+        "std_confidence": 0.034829580240026886
+      },
+      "timestamp": "2025-11-14T23:50:47.183928"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 45,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1222856268286705,
+          "timestamp": "2025-11-14T23:50:47.452734"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.21220482885837555,
+          "timestamp": "2025-11-14T23:50:47.488849"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14278870820999146,
+          "timestamp": "2025-11-14T23:50:47.522558"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.2077098786830902,
+          "timestamp": "2025-11-14T23:50:47.549244"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.14431314170360565,
+          "timestamp": "2025-11-14T23:50:47.582612"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.13625897467136383,
+          "timestamp": "2025-11-14T23:50:47.617794"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.16716888546943665,
+          "timestamp": "2025-11-14T23:50:47.653104"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.15922249853610992,
+          "timestamp": "2025-11-14T23:50:47.676765"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.0982312336564064,
+          "timestamp": "2025-11-14T23:50:47.699375"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.17561760544776917,
+          "timestamp": "2025-11-14T23:50:47.721981"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15658013820648192,
+        "std_confidence": 0.03394735037054429
+      },
+      "timestamp": "2025-11-14T23:50:47.722556"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 45,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.15681949257850647,
+          "timestamp": "2025-11-14T23:50:47.954706"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1795458346605301,
+          "timestamp": "2025-11-14T23:50:47.986101"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.15549474954605103,
+          "timestamp": "2025-11-14T23:50:48.015075"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.19036446511745453,
+          "timestamp": "2025-11-14T23:50:48.048182"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.18384602665901184,
+          "timestamp": "2025-11-14T23:50:48.079728"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.147223562002182,
+          "timestamp": "2025-11-14T23:50:48.108944"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.14159926772117615,
+          "timestamp": "2025-11-14T23:50:48.138123"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.16075065732002258,
+          "timestamp": "2025-11-14T23:50:48.164179"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.11341358721256256,
+          "timestamp": "2025-11-14T23:50:48.188743"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.15313710272312164,
+          "timestamp": "2025-11-14T23:50:48.215895"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15821947455406188,
+        "std_confidence": 0.021427003058053843
+      },
+      "timestamp": "2025-11-14T23:50:48.216503"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 45,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1336464285850525,
+          "timestamp": "2025-11-14T23:50:48.466427"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.16149020195007324,
+          "timestamp": "2025-11-14T23:50:48.494304"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.1951919049024582,
+          "timestamp": "2025-11-14T23:50:48.526850"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.11979933083057404,
+          "timestamp": "2025-11-14T23:50:48.558033"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.122391477227211,
+          "timestamp": "2025-11-14T23:50:48.587838"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.14390254020690918,
+          "timestamp": "2025-11-14T23:50:48.618372"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.16557836532592773,
+          "timestamp": "2025-11-14T23:50:48.646679"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1445913016796112,
+          "timestamp": "2025-11-14T23:50:48.673335"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.20604506134986877,
+          "timestamp": "2025-11-14T23:50:48.701891"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.15554510056972504,
+          "timestamp": "2025-11-14T23:50:48.735008"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15481817126274108,
+        "std_confidence": 0.027138259071119664
+      },
+      "timestamp": "2025-11-14T23:50:48.735573"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 60,
+        "distance_meters": 0.5,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.20297744870185852,
+          "timestamp": "2025-11-14T23:50:48.975130"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.1966772824525833,
+          "timestamp": "2025-11-14T23:50:49.005541"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.14712963998317719,
+          "timestamp": "2025-11-14T23:50:49.037266"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13419906795024872,
+          "timestamp": "2025-11-14T23:50:49.068942"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1824825555086136,
+          "timestamp": "2025-11-14T23:50:49.099490"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.14695978164672852,
+          "timestamp": "2025-11-14T23:50:49.130221"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.08056867867708206,
+          "timestamp": "2025-11-14T23:50:49.159045"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.170962393283844,
+          "timestamp": "2025-11-14T23:50:49.186847"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.20747998356819153,
+          "timestamp": "2025-11-14T23:50:49.207867"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1575009971857071,
+          "timestamp": "2025-11-14T23:50:49.232217"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.16269378289580344,
+        "std_confidence": 0.03649201154902743
+      },
+      "timestamp": "2025-11-14T23:50:49.232787"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 60,
+        "distance_meters": 1.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.24136094748973846,
+          "timestamp": "2025-11-14T23:50:49.488799"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.17313559353351593,
+          "timestamp": "2025-11-14T23:50:49.524266"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.12122033536434174,
+          "timestamp": "2025-11-14T23:50:49.557114"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.17172271013259888,
+          "timestamp": "2025-11-14T23:50:49.591731"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.18844127655029297,
+          "timestamp": "2025-11-14T23:50:49.615787"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.1669042408466339,
+          "timestamp": "2025-11-14T23:50:49.633530"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.10693073272705078,
+          "timestamp": "2025-11-14T23:50:49.652063"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.14658954739570618,
+          "timestamp": "2025-11-14T23:50:49.667784"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.17461828887462616,
+          "timestamp": "2025-11-14T23:50:49.696084"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.12987303733825684,
+          "timestamp": "2025-11-14T23:50:49.719071"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.16207967102527618,
+        "std_confidence": 0.036557177093617936
+      },
+      "timestamp": "2025-11-14T23:50:49.719635"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 60,
+        "distance_meters": 2.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.1425710767507553,
+          "timestamp": "2025-11-14T23:50:49.964719"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.16933220624923706,
+          "timestamp": "2025-11-14T23:50:50.001551"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.16424518823623657,
+          "timestamp": "2025-11-14T23:50:50.036282"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.13263678550720215,
+          "timestamp": "2025-11-14T23:50:50.071183"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.16803358495235443,
+          "timestamp": "2025-11-14T23:50:50.100938"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.122157521545887,
+          "timestamp": "2025-11-14T23:50:50.131312"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.22908367216587067,
+          "timestamp": "2025-11-14T23:50:50.166122"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.1316712498664856,
+          "timestamp": "2025-11-14T23:50:50.200645"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.13629843294620514,
+          "timestamp": "2025-11-14T23:50:50.242445"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.18047307431697845,
+          "timestamp": "2025-11-14T23:50:50.265014"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.15765027925372124,
+        "std_confidence": 0.030257209477033274
+      },
+      "timestamp": "2025-11-14T23:50:50.265612"
+    },
+    {
+      "condition": {
+        "lighting": "high",
+        "angle_degrees": 60,
+        "distance_meters": 5.0,
+        "num_samples": 10
+      },
+      "patch_id": "resnet18_fp32",
+      "predictions": [
+        {
+          "frame_id": 0,
+          "predicted_class": 818,
+          "confidence": 0.14420631527900696,
+          "timestamp": "2025-11-14T23:50:50.504987"
+        },
+        {
+          "frame_id": 1,
+          "predicted_class": 818,
+          "confidence": 0.10596615076065063,
+          "timestamp": "2025-11-14T23:50:50.532624"
+        },
+        {
+          "frame_id": 2,
+          "predicted_class": 818,
+          "confidence": 0.16565914452075958,
+          "timestamp": "2025-11-14T23:50:50.563909"
+        },
+        {
+          "frame_id": 3,
+          "predicted_class": 818,
+          "confidence": 0.11663664132356644,
+          "timestamp": "2025-11-14T23:50:50.594808"
+        },
+        {
+          "frame_id": 4,
+          "predicted_class": 818,
+          "confidence": 0.1574281007051468,
+          "timestamp": "2025-11-14T23:50:50.626407"
+        },
+        {
+          "frame_id": 5,
+          "predicted_class": 818,
+          "confidence": 0.12812954187393188,
+          "timestamp": "2025-11-14T23:50:50.656208"
+        },
+        {
+          "frame_id": 6,
+          "predicted_class": 818,
+          "confidence": 0.19326996803283691,
+          "timestamp": "2025-11-14T23:50:50.687856"
+        },
+        {
+          "frame_id": 7,
+          "predicted_class": 818,
+          "confidence": 0.14107805490493774,
+          "timestamp": "2025-11-14T23:50:50.718973"
+        },
+        {
+          "frame_id": 8,
+          "predicted_class": 818,
+          "confidence": 0.19042333960533142,
+          "timestamp": "2025-11-14T23:50:50.749273"
+        },
+        {
+          "frame_id": 9,
+          "predicted_class": 818,
+          "confidence": 0.1306947022676468,
+          "timestamp": "2025-11-14T23:50:50.775344"
+        }
+      ],
+      "metrics": {
+        "mean_confidence": 0.14734919592738152,
+        "std_confidence": 0.027843719777384257
+      },
+      "timestamp": "2025-11-14T23:50:50.775931"
+    }
+  ]
+}
