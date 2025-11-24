@@ -79,28 +79,25 @@ This repository contains code and experimental results for testing **physical ad
 ![Comprehensive Analysis](comprehensive_analysis.png)
 
 **Key Insights**:
-- Multi-dimensional environmental impact assessment
-- Systematic evaluation across lighting, viewing angles, and distances
-- Clear visualization of attack success rates and confidence degradation patterns
+- **Viewing Angle Impact**: Confidence ranges from 0.156 (0°) to 0.143 (15° - minimum) to 0.163 (60°), with 15° viewing angle as most vulnerable
+- **Distance Impact**: U-shaped trend with confidence at 0.159 (0.5m), dropping to minimum 0.145 (2m), then recovering to 0.163 (5m)
+- **Lighting Impact**: Minimal variance across conditions - Low: 0.1548, Medium: 0.1543, High: 0.1540  
+- **Confidence Distribution**: Overall Mean: 0.155 ± 0.034, Median: 0.152, indicating consistently low confidence under adversarial attacks
 
 ### Detailed Heatmap Analysis
 
 ![Heatmap Detailed](heatmap_detailed.png)
 
 **Analysis**:
-- Spatial distribution of model confidence across test scenarios
-- Identification of critical vulnerability zones
-- Environmental factor correlation with adversarial robustness
-
+- **Critical Vulnerability Zone**: 15° viewing angle shows lowest confidence across all distances (0.133-0.150 range)- Identification of critical vulnerability zones
+- **Optimal Attack Configuration**: 45° angle at 5.0m distance achieves highest confidence degradation (0.219), representing strongest adversarial effect
 ### Robustness Analysis
 
 ![Robustness Analysis](robustness_analysis.png)
 
 **Summary**:
-- Comprehensive robustness evaluation charts
-- Performance metrics across all experimental conditions
-- Detailed breakdown of environmental sensitivity factors
-
+- **Distance Robustness**: U-shaped confidence trend shows baseline 0.1590 (0.5m), dropping to minimum 0.1452 (2m), then recovering to 0.1635 (5m) - optimal attack at medium range
+- **Angular Robustness**: Confidence trend from 0.1565 (0°) → minimum 0.1430 (15°) → maximum 0.1625 (45°/60°), confirming critical vulnerability at shallow angles
 ### Physical Camera Test
 
 ![Camera Test](camera_test.jpg)
